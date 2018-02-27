@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jun.duty.LinearActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        style="@style/warna"
+        android:id="@+id/actSpinner"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        style="@style/warna"
+        android:id="@+id/actRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/actCheck"
+        style="@style/warna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Box"
+        />
+
+    <Button
+        style="@style/warna"
+        android:id="@+id/actToogle"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toogle Button"
+        />
+
+    <Button
+        android:id="@+id/actEdittext"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit text dan Kawan2"
+        />
+    <Button
+        android:id="@+id/actAlert"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        />
+    <Button
+        android:id="@+id/actCustom"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Alert Dialog"
+        />
+
+    <Button
+        android:id="@+id/actDate"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Picker"
+        />
+
+    <Button
+        android:id="@+id/actTime"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Picker"
+        />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

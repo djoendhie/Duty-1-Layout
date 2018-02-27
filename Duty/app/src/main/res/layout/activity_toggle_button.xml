@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.jun.duty.ToggleButtonActivity">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First"
+        android:checked="true"
+        android:id="@+id/tb1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Status"
+        android:id="@+id/TV1"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"></LinearLayout>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:id="@+id/tb2"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/TV2"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>

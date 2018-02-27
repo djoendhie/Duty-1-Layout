@@ -1,0 +1,20 @@
+<resources>
+    <string name="date_label">Tekan tombol untuk mengatur tanggal</string>
+    <string name="date_button">Atur Tanggal</string>
+    <string name="date_view">Tanggal : </string>
+    <string name="date_selected"></string>
+
+    <string name="app_name">Duty</string>
+    <string-array name="isi_spinner">
+        <item>Pilih satu ae</item>
+        <item>Durian</item>
+        <item>Rambutan</item>
+        <item>Jambu</item>
+        <item>Cubadak</item>
+        <item>Apel</item>
+        <item>Nanas</item>
+        <item>Manngga</item>
+        <item>paraweh</item>
+        <item>Strawberry</item>
+    </string-array>
+</resources>

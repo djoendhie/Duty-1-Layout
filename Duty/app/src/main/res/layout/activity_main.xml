@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jun.duty.MainActivity">
+
+    <Button
+        android:id="@+id/pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Duty Layout Dasar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4"
+        android:text="Asli" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="22dp"
+        android:layout_toEndOf="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:text="Pencet Back Untuk Alert Dialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pindah"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/pindah"
+        android:layout_toRightOf="@+id/pindah"
+        android:text="palsu"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/pindah"
+        android:layout_marginTop="30dp"
+        android:text="palsu"
+        android:id="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="33dp"
+        android:text="Custom Dialog"
+        android:id="@+id/customss"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/pindah"
+        android:layout_toStartOf="@+id/pindah"
+        android:text="palsu"
+        android:id="@+id/button4" />
+</RelativeLayout>
